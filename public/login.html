@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STIGMA Cookie Checker - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔐</text></svg>">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav-brand">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>STIGMA</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                    <a href="#help" class="nav-link">
+                        <i class="fas fa-question-circle"></i> Help
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Login Section -->
+    <div class="container">
+        <div class="login-container">
+            <div class="login-box">
+                <div class="logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <h1>STIGMA Cookie Checker</h1>
+                    <p class="tagline">Professional Roblox Account Checker</p>
+                </div>
+
+                <div class="login-form">
+                    <div class="form-group">
+                        <label for="username">
+                            <i class="fas fa-user"></i> Username
+                        </label>
+                        <input type="text" id="username" placeholder="Masukkan username">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">
+                            <i class="fas fa-key"></i> Password
+                        </label>
+                        <input type="password" id="password" placeholder="Masukkan password">
+                    </div>
+
+                    <button id="loginBtn" class="btn-login">
+                        <i class="fas fa-sign-in-alt"></i> Login
+                    </button>
+
+                    <div class="login-footer">
+                        <p><i class="fas fa-info-circle"></i> Hubungi admin untuk mendapatkan akses</p>
+                        <p><i class="fas fa-clock"></i> Akses tersedia sesuai durasi yang ditentukan</p>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="social-media">
+                        <h3><i class="fas fa-share-alt"></i> Hubungi Admin</h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/share/17CwKSMr3d/?mibextid=wwXIfr" class="social-link facebook" target="_blank" title="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://wa.me/085210441979" class="social-link whatsapp" target="_blank" title="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com/aldi_5301?igsh=NXhkeWp5bXRtM2Fy&utm_source=qr" class="social-link instagram" target="_blank" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://youtube.com/@aaldi225?si=7tFl6K9GE80F5Udt" class="social-link youtube" target="_blank" title="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@stigmamewing0?_r=1&_t=ZS-91vTlaFHEyV" class="social-link tiktok" target="_blank" title="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                        <p class="social-note">Klik ikon di atas untuk menghubungi admin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <i class="fas fa-info-circle" id="toastIcon"></i>
+            <span id="toastMessage">Notification message</span>
+        </div>
+        <button id="toastClose" class="toast-close">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <script src="login-script.js"></script>
+</body>
+</html>
