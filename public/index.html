@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STIGMA Cookie Checker - User Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔐</text></svg>">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav-brand">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>STIGMA</span>
+                </div>
+                <a href="login.html" class="nav-link nav-login">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </a>
+                <div class="nav-menu">
+                    <a href="login.html" class="nav-link nav-login-mobile">
+                        <i class="fas fa-sign-in-alt"></i> Login
+                    </a>
+                    <a href="#help" class="nav-link">
+                        <i class="fas fa-question-circle"></i> Help
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Homepage Advertisement -->
+        <div class="homepage-ad" id="homepageAd">
+            <div class="advertisement">
+                <div class="ad-header">
+                    <i class="fas fa-star"></i>
+                    <h3>STIGMA Cookie Checker Pro</h3>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <div class="ad-content">
+                    <div class="ad-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Fast & Reliable</h4>
+                            <p>Check thousands of cookies in minutes</p>
+                        </div>
+                    </div>
+
+                    <div class="ad-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Secure & Private</h4>
+                            <p>Your data is protected with encryption</p>
+                        </div>
+                    </div>
+
+                    <div class="ad-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Real-time Stats</h4>
+                            <p>Live monitoring and detailed analytics</p>
+                        </div>
+                    </div>
+
+                    <div class="ad-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Premium Support</h4>
+                            <p>24/7 customer support available</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ad-cta">
+                    <div class="cta-text">
+                        <span class="highlight">Join 10,000+ Users</span>
+                        <p>Start checking your Roblox cookies today!</p>
+                    </div>
+                    <div class="cta-button">
+                        <a href="login.html" class="btn-ad">
+                            <i class="fas fa-play"></i> Get Started
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ad-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="15000">0</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="7500000">0</span>
+                        <span class="stat-label">Cookies Checked</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="99">0</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Success Stories Section -->
+            <div class="advertisement ad-secondary">
+                <div class="ad-header">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Success Stories</h3>
+                    <i class="fas fa-trophy"></i>
+                </div>
+
+                <div class="testimonials-content">
+                    <div class="testimonial">
+                        <div class="testimonial-header">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="testimonial-author">Alex_RBX</span>
+                        </div>
+                        <p>"Found 50+ valid accounts in just 10 minutes! This tool saved me hours of manual checking."</p>
+                        <div class="testimonial-stats">
+                            <span><i class="fas fa-check-circle"></i> 50 Valid</span>
+                            <span><i class="fas fa-coins"></i> 250K Robux</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="testimonial-header">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="testimonial-author">CookieMaster</span>
+                        </div>
+                        <p>"The fastest cookie checker I've ever used. Real-time results and detailed analytics are amazing!"</p>
+                        <div class="testimonial-stats">
+                            <span><i class="fas fa-clock"></i> 5 min check</span>
+                            <span><i class="fas fa-crown"></i> 15 Premium</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="testimonial-header">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="testimonial-author">RobloxHunter</span>
+                        </div>
+                        <p>"Batch processing is a game changer. I can check hundreds of cookies simultaneously with ease."</p>
+                        <div class="testimonial-stats">
+                            <span><i class="fas fa-users"></i> 200 Accounts</span>
+                            <span><i class="fas fa-shield-alt"></i> 100% Secure</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ad-cta">
+                    <div class="cta-text">
+                        <span class="highlight">Join Our Community!</span>
+                        <p>Thousands of users are already using STIGMA successfully</p>
+                    </div>
+                    <div class="cta-button">
+                        <a href="" class="btn-ad">
+                            <i class="fas fa-users"></i> Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rules and Guidelines Section -->
+            <div class="advertisement ad-rules">
+                <div class="ad-header">
+                    <i class="fas fa-book"></i>
+                    <h3>Important Rules & Guidelines</h3>
+                    <i class="fas fa-book"></i>
+                </div>
+
+                <div class="rules-content">
+                    <div class="rule-item">
+                        <div class="rule-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="rule-text">
+                            <h4>Security First</h4>
+                            <p>Never share your Roblox cookies with anyone. Use this tool responsibly.</p>
+                        </div>
+                    </div>
+
+                    <div class="rule-item">
+                        <div class="rule-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="rule-text">
+                            <h4>Fair Usage</h4>
+                            <p>Limit your checks to avoid rate limiting. Respect Roblox's terms of service.</p>
+                        </div>
+                    </div>
+
+                    <div class="rule-item">
+                        <div class="rule-icon">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <div class="rule-text">
+                            <h4>Privacy Protected</h4>
+                            <p>Your cookies are processed securely and never stored on our servers.</p>
+                        </div>
+                    </div>
+
+                    <div class="rule-item">
+                        <div class="rule-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="rule-text">
+                            <h4>Time Limits</h4>
+                            <p>Premium accounts get priority processing. Free users have daily limits.</p>
+                        </div>
+                    </div>
+
+                    <div class="rule-item">
+                        <div class="rule-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="rule-text">
+                            <h4>Warning</h4>
+                            <p>Misuse of this tool may result in account suspension. Use at your own risk.</p>
+                        </div>
+                    </div>
+
+                    <div class="rule-item">
+                        <div class="rule-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="rule-text">
+                            <h4>Support</h4>
+                            <p>Need help? Contact our 24/7 support team for assistance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action Banner -->
+            <div class="advertisement ad-banner">
+                <div class="banner-content">
+                    <div class="banner-text">
+                        <h2><i class="fas fa-rocket"></i> Ready to Check Your Cookies?</h2>
+                        <p>Join thousands of users who trust STIGMA for their Roblox cookie checking needs!</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Simple animation for stats counters
+        function animateCounter(element, target) {
+            let current = 0;
+            const increment = target / 100;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                element.textContent = Math.floor(current);
+            }, 20);
+        }
+
+        // Animate stats on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            statNumbers.forEach(stat => {
+                const target = parseInt(stat.getAttribute('data-target'));
+                animateCounter(stat, target);
+            });
+        });
+    </script>
+</body>
+</html>
